@@ -1,0 +1,109 @@
+{
+   "material": {
+      "video": "https://vimeo.com/266822386",
+      "quiz": [
+            {
+               "text": "Qual é a profissão/faculdade que estuda as previsões, as predições que podem acontecer com base em história e em diversos dados?",
+               "answers": [
+                  {
+                     "text": "futurologista",
+                     "value": false
+                  },
+                  {
+                     "text": "futurista",
+                     "value": true
+                  },
+                  {
+                     "text": "futureiro",
+                     "value": false
+                  }
+               ]
+            },
+            {
+               "text": "O _____________ de 'fazer acontecer' é fundamental e, mais do que nunca, a confiança dos clientes será a maior aliada das empresas.",
+               "answers": [
+                  {
+                     "text": "sonho",
+                     "value": false
+                  },
+                  {
+                     "text": "objetivo",
+                     "value": true
+                  },
+                  {
+                     "text": "protagonismo",
+                     "value": false
+                  }
+                          ]  
+              },
+              {
+            "text": "O infográfico ilustra 13 soft skills do profissional do futuro. Qual das opções abaixo contém 3 soft skills citadas?",
+            "answers": [
+               {
+                  "text":"Complexidade, hierarquia e competitividade",
+                  "value": false
+               },
+               {
+                  "text": "Resistência, simpatia e influência",
+                  "value": false
+               },
+               {
+                  "text": "Inteligência emocional, criatividade e resiliência",
+                  "value": true
+               }
+            ]
+          }
+    ]
+},
+
+{
+   "Curso": {
+     "id": 1,
+     "Nome": "Nome do curso",
+     "Descricao": "Texto descritivo",
+     "Objetivo": "Caso haja",
+     "PublicoAlvo": "Caso haja",
+     "Autores": ["Nome do Autor", "Nome de outro autor"],
+     "CargaHoraria" : 100,
+     "Valor": 199,
+     "Status": true,
+     "DtAtualizacao": "28/07/2020 19:08:00",
+     "Modulos": [
+       {
+         "Ordem": 1,
+         "Descricao": "Descrição do módulo",
+         "Video": "Link do vídeo",
+         "VideoDuracao": 600,
+         "Artigo": "Texto em <b>HTML</b> do artigo completo",
+         "Infografico": "https://bookplay.com.br/images/livros/00001/Imagem.jpg (link caso haja no módulo)",
+         "MapaMental": "https://bookplay.com.br/images/livros/00001/Imagem.jpg (link caso haja no módulo)",
+         "Quiz": [
+           {
+             "Perguntas": [
+               {
+                 "Texto": "Texto da pergunta 1",
+                 "Ordem": 1,
+                 "Respostas": [
+                   { "Texto": "Texto da resposta", "Correta": false },
+                   { "Texto": "Texto da resposta", "Correta": false },
+                   { "Texto": "Texto da resposta", "Correta": false },
+                   { "Texto": "Texto da resposta", "Correta": true }
+                 ]
+               },
+               {
+                 "Texto": "Texto da pergunta 2",
+                 "Ordem": 2,
+                 "Respostas": [
+                   { "Texto": "Texto da resposta", "Correta": true },
+                   { "Texto": "Texto da resposta", "Correta": false },
+                   { "Texto": "Texto da resposta", "Correta": false },
+                   { "Texto": "Texto da resposta", "Correta": false }
+                 ]
+               }
+             ]
+           }
+         ]
+       }
+     ]
+   }
+ 
